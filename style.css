@@ -1,0 +1,644 @@
+:root {
+  --red: red;
+  --yellow: yellow;
+  --black: black;
+}
+
+.karantina-light {
+  font-family: "Karantina", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.karantina-regular {
+  font-family: "Karantina", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.karantina-bold {
+  font-family: "Karantina", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hind-madurai-light {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.hind-madurai-regular {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hind-madurai-medium {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.hind-madurai-semibold {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hind-madurai-bold {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.jersey-10-regular {
+  font-family: "Jersey 10", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+html {
+  --scroll-behavior: smooth;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+
+
+#logo {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-image: url("img/logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.first_titre {
+
+  color: var(--yellow);
+  text-align: center;
+  text-shadow: -10px 10px 0px var(--red);
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: var(--black);
+  font-family: Karantina;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 0px;
+
+}
+
+.second_titre {
+  text-shadow: -10px 10px 0px var(--red);
+  color: var(--yellow);
+  text-align: center;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: var(--black);
+  font-family: Karantina;
+  font-size: 98px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  z-index: 1;
+}
+
+#name {
+  margin-top: 20vh;
+
+}
+
+#stop{
+  overflow: hidden;
+  width: 400px;
+}
+
+#dev {
+
+  width: max-content;
+  animation: scroll-left 3s linear infinite;
+  text-align: center;
+  margin-top: 10vh;
+  color: var(--yellow);
+  font-size: 48px;
+  font-family: hind Madurai;
+  font-weight: lighter;
+}
+
+#line_dev {
+  height: 4px;
+  width: 300px;
+  background-color: var(--red);
+}
+
+.button_project {
+
+  border-radius: 100px;
+  width: 250px;
+  height: 70px;
+  background-color: var(--red);
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+
+  transition: 0.2s ease;
+}
+
+.button_project:hover {
+  background-color: var(--yellow);
+  color: var(--red);
+  transition: 0.2s ease-in-out;
+}
+
+#more {
+  margin-top: 5vh;
+  color: var(--yellow);
+  font-family: hind madurai;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#swip {
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo_dev {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  width: 120px;
+  height: 120px;
+}
+
+#deco_text {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  color: #FF0;
+  text-align: center;
+  font-family: "Jersey 10";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transform: rotate(34deg);
+}
+
+#who_im {
+
+
+  padding: 0;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#direction {
+
+  height: 25px;
+  width: 25px;
+  background-image: url("img/flèche.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+#about_me {
+
+  width: 100vw;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.cards_project {
+
+  box-shadow: -10px 10px 0px var(--red);
+  margin: 5%;
+  height: 20vh;
+  width: 140vh;
+  background-color: var(--yellow);
+  border-radius: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.picture_present {
+  height: 100%;
+  width: 200px;
+
+  background-repeat: no-repeat;
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+#me {
+  width: 100vw;
+  min-height: 400px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 100px;
+
+}
+
+
+#pdp {
+  margin-bottom: 100px;
+  background-image: url("img/image\ de\ moi.png");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 40vh;
+  background-color: var(--red);
+  border-radius: 50%;
+  border: 10px solid var(--yellow);
+  filter: drop-shadow(-20px 20px 0px var(--red));
+}
+
+.desc {
+  width: 60%;
+  font-family: Hind Madurai;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#try {
+  font-family: karantina;
+  font-size: 48px;
+  color: red;
+  text-decoration: underline;
+  justify-self: center;
+}
+
+#projet {
+  margin-top: 50px;
+}
+
+#my_projects {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#discover {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 98vh;
+}
+
+#encore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#insta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.describe {
+  margin-right: 20%;
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+
+
+.page_project {
+  transition: all 1s ease ease-in-out;
+  font-family: Hind Madurai;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 10%;
+}
+
+.title_project {
+  font-size: 46px;
+  height: 30%;
+  width: 100%;
+  font-family: Karantina;
+  color: black;
+}
+
+.describe_project {
+  height: 50%;
+  width: 150%;
+  font-family: Hind Madurai;
+
+}
+
+.chips_desc {
+  background-color: rgba(217, 217, 217, 0.4);
+  font-family: Hind Madurai;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.chips_project {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+#other_project {
+  width: 5vh;
+  height: 5vh;
+}
+
+#separation {
+  margin: 100px;
+  height: 2px;
+  width: 600px;
+  background-color: var(--yellow);
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#desc_projet {
+  margin-top: 100px;
+  color: rgba(255, 255, 0, 0.545);
+  width: 90%;
+}
+
+
+.chips {
+  border-radius: 20px;
+  font-family: Hind Madurai;
+  font-weight: bold;
+  font-size: 18px;
+  height: 25px;
+}
+
+#contener {
+  height: 550px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#img_logo {
+  height: 500px;
+  width: 500px;
+}
+
+#other_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+#resaux {
+  height: 50%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#resaux img {
+  width: 5vh;
+  height: 5vh;
+  background-size: cover;
+}
+
+.parts {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sub_title {
+  color: #FF0;
+  text-align: center;
+  -webkit-text-stroke-width: 5;
+  -webkit-text-stroke-color: #000;
+  font-family: Karantina;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.all_parts {
+  color: #FF0;
+  width: 100%;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background: transparent;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 0);
+  border-radius: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  #logo {
+    display: none;
+  }
+
+  html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  #name {
+    margin-top: 20px;
+  }
+
+  .parts {
+    display: none;
+  }
+
+  #contener {
+    flex-direction: column;
+  }
+
+  #resaux {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #img_logo {
+    height: 300px;
+    width: 300px;
+  }
+
+  #projet {
+    font-size: 68px;
+    margin-bottom: 100px;
+  }
+
+  #logo_dev{
+    display: none;
+  }
+
+  #deco_text{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+  .cards_project {
+    width: 50vh;
+    height: 60vh;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .picture_present {
+    height: 400%;
+    width: 100%;
+  }
+
+  .describe_project {
+    display: none;
+  }
+
+  .page_project {
+    display: none;
+  }
+
+  .chips_project {
+    display: none;
+  }
+
+  .title_project {
+    width: 100%;
+    margin: 0;
+  }
+
+  .describe {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+
+}
+
+@keyframes scroll-left {
+  0% {
+      transform: translateX(0);
+  }
+
+  100% {
+      transform: translateX(-450px);
+  }
+}
+
+
+
+.marquee {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  margin-right: 50px;
+}
