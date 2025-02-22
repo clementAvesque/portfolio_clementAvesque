@@ -1,7 +1,7 @@
 let projects = [
     {
         link:"projects_page/rat/found_the_rat.html",
-        titre: "Found the mouse",
+        titre: "FOUND THE MOUSE",
         desc: "Dans ce jeu, vous incarnez un assistant d’un chef et une souris s’est infiltrée dans sa cuisine ! Attrapez la souris avant qu’elle ne s’enfuie!",
         chips: ["javascript", "css", "html"],
         img: `img/rat_mort.png`,
