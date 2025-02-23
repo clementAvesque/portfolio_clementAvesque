@@ -120,6 +120,11 @@ h2 {
 }
 
 
+#background {
+    transform: rotate(-10deg);
+    width: auto;
+    height: 100%;
+}
 
 #balloon_one {
     width: 20vw;
@@ -179,14 +184,9 @@ video {
     z-index: 10;
 }
 
-#background{
-    width: 50vw;
-}
-
 @keyframes balancement {
     0%{
-        transform: rotate(5deg);
-        transform: translateY(40px);
+        transform: rotate(5deg);        transform: translateY(40px)
     }
     10%{
         transform: rotate(10deg);

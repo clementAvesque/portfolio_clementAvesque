@@ -149,7 +149,7 @@ footer {
     width: 100vw;
 }
 #background{
-    width: 40vw;
+    width: 50vw
 }
 
 .another_project {
@@ -166,6 +166,10 @@ footer {
     border-radius: 15px;
 }
 
+#creation img{
+    width: auto;
+    height: auto;
+}
 
 
 @media screen and (max-width: 1200px) {
