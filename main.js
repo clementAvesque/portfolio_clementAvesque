@@ -16,7 +16,7 @@ let projects = [
         video: "balloon_video.mp4"
     },
     {   
-        link:"projects_page/balloon/FLYING_IN_THE_SKY.html",
+        link:"projects_page/quizz/QlturG.html",
         titre: "Qltur G",
         desc: "Avez-vous assez de connaissances pour répondre à toutes les questions de ce quiz ? Venez essayer de répondre aux questions de culture générale et montrez que vous en avez dans la tête !",
         chips: ["javascript", "css", "html"],
