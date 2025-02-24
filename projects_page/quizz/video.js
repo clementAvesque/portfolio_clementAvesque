@@ -52,7 +52,9 @@ document.body.addEventListener('keyup', (e) => {
 
 
 for (let i = 0; i < projects.length; i++) {
-    if (doc_name === projects[i].titre.toLowerCase()) {
+    console.log(projects[i].titre.toLowerCase())
+    if (doc_name.toLowerCase() === projects[i].titre.toLowerCase()) {
+
         console.log("false");
     } else {
         const cards = document.createElement("div");
