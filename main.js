@@ -21,7 +21,7 @@ let projects = [
         desc: "Avez-vous assez de connaissances pour répondre à toutes les questions de ce quiz ? Venez essayer de répondre aux questions de culture générale et montrez que vous en avez dans la tête !",
         chips: ["javascript", "css", "html"],
         img: `img/quizz.png`,
-        video: 'qltur_g_video.mp4'
+        video: ''
     },
 ]
 
